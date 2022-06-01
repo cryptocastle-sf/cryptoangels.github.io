@@ -1,0 +1,42 @@
+#wrapper{
+	display:flex;
+	flex-flow: column wrap;
+	align-items: center;
+	margin:10% 20%;
+	font-family: source-code-pro, monospace;
+		font-weight: 400;
+		font-style: normal;
+	#help{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+	}
+	#header{
+		
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:5%;
+
+    h1{
+    	font-family: acumin-variable, sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		margin:0;
+		margin-right:5%;
+		font-size: 5rem;
+		@media (max-width: 767px) {
+            font-size:10rem;
+        }
+	}
+	}
+	#logo{width:100px;
+		height:100px;}
+	#listing{
+		margin-bottom: 5%;}
+	#description{
+		font-family: source-code-pro, monospace;
+		font-weight: 400;
+		font-style: normal;
+
+	}
+}
